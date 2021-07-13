@@ -1,0 +1,173 @@
+section{
+margin-bottom:220px}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size:50px
+}
+h2{
+    font-size:40px
+}
+.RoundOR img{
+    width:100px;
+    margin-top:-3.5%;
+    margin-left:-3%;
+}
+
+.topbanner{
+    background-image: url(Developer.jpg);
+    background-repeat: no-repeat;
+    background-size:3% ;
+    background-position-y:47% ;
+
+
+  
+
+}
+.topWrite span{
+    color:brown
+}
+.topWrite{
+    width:50%;
+    padding-left:5%;;
+}
+.topWriteA{
+    width:50%;
+    float:right;
+    margin-bottom: 15%;
+
+    height:500px
+}
+.topWriteA{
+    background-image: url(roundSE.png);
+    background-size: 295px;
+    background-position-x: 560px;
+    background-position-y:90px ;
+    background-repeat: no-repeat;
+}
+.topWrite p{
+    line-height:29px;
+    font-size:18px;
+}    
+.topWriteA p{
+    line-height:29px;
+    font-size:18px;
+}    
+
+.topWA-button{
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 1.5s;
+
+    animation-fill-mode: forwards;
+
+  }
+  
+  @keyframes example {
+    from {margin-left:-200px}
+    to {margin-left:0px}
+  }
+
+
+.topWriteA button{
+    padding:10px;
+}
+.topW-button{
+    text-decoration: none;
+    border:0px;
+    padding:15px;
+    background-color:rgba(65, 42, 165, 0.342);
+    border-radius:3px;
+    font-weight:700;
+    margin-bottom:10px   
+}
+.topW-button:hover{
+    background-color:rgba(0, 255, 191, 0.5);
+    transition: 1s;
+}
+
+.topWA-button{
+    text-decoration: none;
+    border:0px;
+    padding:15px;
+    background-color:rgba(65, 42, 165, 0.342);
+    border-radius:3px;
+    font-weight:700;
+    margin-bottom:10px   
+}
+.topWA-button:hover{
+    background-color:rgba(0, 255, 191, 0.5);
+    transition: 1s;
+}
+.Timg img{
+    width:47%;
+    float:right;
+    margin-top:-33%;
+    margin-right:-3%;
+    
+    border:0px;
+}
+.TimgA img{
+    width:45%;
+    float:left;
+    padding-left: 3%;
+    border:0px;
+    margin-bottom:15%
+}
+.SBcolor{
+    color:darkred;
+}
+.halfWrapper{
+    border:0px;
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    border-radius:10px;
+    box-shadow: 10px 10px 50px  crimson;
+    padding:10px;
+    padding-left:20px;
+}
+.halfWrapperA{
+    border:0px;
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    border-radius:10px;
+    box-shadow: 10px 10px 50px  crimson;
+    padding:10px;
+    padding-left:20px;
+    float:right;
+}   
+.SBwrapper{
+    background-image:url(roundO.png);
+    background-repeat: no-repeat;
+    background-size: 17%;
+    background-position: center left;
+    background-position-x: -10%;
+}
+.Sbanner p{
+    line-height:25px;
+    font-size:19px
+}
+.halfWrapper{
+    border-left:7px solid;
+    border-image:linear-gradient(blue,cyan) ;
+    border-image-slice: 1;
+}
+.halfWrapperA{
+    border-left:7px solid;
+    border-image:linear-gradient(blue,cyan) ;
+    border-image-slice: 1;
+    float:right
+}
+#SBRR{
+    margin-top:-23.5%
+}
+footer{
+    text-align:center;
+    font-weight:700
+}
